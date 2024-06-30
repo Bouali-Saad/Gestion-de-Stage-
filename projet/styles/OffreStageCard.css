@@ -1,0 +1,135 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-left: 16rem;
+    padding: 20px;
+    gap: 20px;
+}
+.card {
+    background: #fff;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+.card button:hover {
+    color:  whitesmoke;
+    background-color: #535bf29a;
+    cursor: pointer;
+}
+.entreprise-name{
+    width: 100%;
+    aspect-ratio: 30/8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535bf2ad;
+    border-radius: 15px;
+    color: azure;
+    font-size: x-large;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.card .duree {
+    display: inline-block;
+    background-color: #535bf264;
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+    color: azure;
+}
+
+.card h3 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.card button{
+    background-color: #fff;
+    padding: .75rem;
+    border: solid 1px #535bf2db;
+    border-radius: 5px;
+    color: #535bf2f6;
+
+}
+.overlay.open{
+    display: block;
+}
+
+.Details{
+    width: fit-content;
+    height: fit-content;
+    border: black solid 1px;
+    border-radius: 15px;
+    position: absolute;
+    top: 51%;
+    padding : 1rem 1rem;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+   
+    
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(195, 191, 191, 0.315);
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+.Details .DetailsTitle{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    background-color: rgba(176, 175, 175, 0.466);
+    color: black;
+    margin-left: 15px;
+    width: fit-content;
+    height: 35px;
+}
+.close:hover{
+    background-color: rgba(156, 155, 155, 0.185);
+}
+.Details h1{
+    text-decoration: underline #646cffaa 2.5px;
+}
+.OfferTitle{
+    font-size: large;
+    font-weight: 500;
+}
+.OfferEntreprise{
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.OfferDesc .one{
+    font-size: large;
+    font-weight: 500;
+}
+.OfferDesc .p{
+    padding : 1rem 1rem;
+    position: sticky;
+}
+.OfferEntreprise span{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+} 

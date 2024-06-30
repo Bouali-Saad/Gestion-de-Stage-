@@ -1,0 +1,70 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+    border-radius: 15px;
+    background-color: #8186e017;
+    border: 1px solid #535bf256;
+    margin-left: 500px ;
+    position: fixed;
+}
+
+.line{
+    display: flex;
+    gap: 20px;
+}
+.profile-container h1{
+    text-decoration: underline #535bf2c4;
+}
+.profile-container input{
+    width: 300px;
+    padding: .75rem .75rem;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(40, 33, 162, 0.353) ;
+}
+.profile-container input:focus{
+    outline: #535bf2c4 2px solid;
+}
+.profile-container input::placeholder:focus{
+    background-color: #535bf2c4;
+}
+.profile-container #button{
+    border: none;
+    color: beige;
+    background-color: #535bf2df;
+    margin-top: 15px;
+    margin: 0 auto;
+    padding: .5rem .5rem;
+    font-size:medium;
+    font-weight: bold;
+}
+#fileButton{
+    width: 300px;
+    padding: 0;
+    border: none;
+}
+#fileButton::file-selector-button{
+    background-color: #535bf2c4;
+    border: none;
+    color: azure;
+    padding: 7px 50px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+:focus::placeholder{
+    color: #535bf2c4;
+}
+#fileButton::file-selector-button:hover , #button:hover{
+    background-color: whitesmoke;
+    border: solid 1px;
+    border-color: #535bf2c4;
+    color: #535bf2c4;
+    cursor: pointer;
+}
+

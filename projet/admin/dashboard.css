@@ -1,0 +1,41 @@
+.dashboard {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    z-index: 1; /* Assure que la barre de tableau de bord est au-dessus du contenu */
+}
+
+.dashboard ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dashboard ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dashboard ul li:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px; /* Décale le contenu vers la droite pour laisser de la place à la barre de tableau de bord */
+    padding: 20px;
+}
+
+.header {
+    margin-left: 250px; /* Décale également l'en-tête pour correspondre au contenu */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    margin-top: 20px; /* Ajoute un espace entre l'en-tête et le tableau */
+}

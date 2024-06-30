@@ -1,0 +1,24 @@
+[
+    {
+        "offreId": 1,
+        "title": "Stage en programmation ",
+        "entreprise": "Inwi",
+        "description":"gdggdhdjjdugbendhjdkdkiehn",
+        "duree": "3mois"
+    },
+    {
+        "offreId": 2,
+        "title": "Stage en Big Data ",
+        "entreprise": "Facebook",
+        "description":"gdggdhdjjdugbendhjdkdkiehn",
+        "duree": "3mois" 
+    },
+    {
+        "offreId": 3,
+        "title": "Stage en Sécurité ",
+        "entreprise": "Instagram",
+        "description":"gdggdhdjjdugbendhjdkdkiehn",
+        "duree": "3mois" 
+    }
+
+]

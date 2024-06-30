@@ -1,0 +1,26 @@
+[
+    {
+        "stagiereId": 1,
+        "nom_complet":"Issam Mounir",
+        "telephone":1234567,
+        "adresse":"california lotissement jnane imm 17 numero 8",
+        "ville":"casablanca",
+        "université":"Fsac"
+    }, 
+    {
+        "stagiereId": 2,
+        "nom_complet":"Saad Bouali",
+        "telephone":1234568,
+        "adresse":"Ouelfa lotissement saada imm 2 numero 1",
+        "ville":"casablanca",
+        "université":"Fsac"
+    }, 
+    {
+        "stagiereId": 3,
+        "nom_complet":"Badr Bouchta",
+        "telephone":1234569,
+        "adresse":"Polo lotissement ifran imm 1 numero 9",
+        "ville":"casablanca",
+        "université":"Fsac"
+    }
+]

@@ -1,0 +1,82 @@
+.sidebar{
+    width: fit-content;
+    height: 100vh;
+    border-right: solid #3f47df 1px;
+    /* position:fixed; */
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #3f47df;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+/*a{
+    width: 155px;
+    height: auto;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 15px;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #535bf2;
+   border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+*/
+/* li.active{
+    background-color: white;
+
+    border-radius: 10px;
+} */
+.sidebar a:is(:link , :active , :visited).active{
+     color: #3f47df;
+     background-color: white;
+
+     border-radius: 10px;
+}
+
+.sidebar li a:is(:link , :active , :visited){
+    height: 50px;
+    /* width: 100%; */
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: .25rem 1rem;
+    margin: 20px 20px;
+}
+.sidebar li .icon{
+    min-width:  60px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.sidebar li:hover{
+    background-color:rgba(236, 236, 236, 0.388);
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+}
